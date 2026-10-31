@@ -1,0 +1,14 @@
+{
+  "name": "cdn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Smart S3 & Local Media CDN with on-the-fly Sharp resizing",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "s3rver": "3.7.1",
+    "sharp": "^0.33.5"
+  }
+}
